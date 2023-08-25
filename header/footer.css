@@ -1,0 +1,68 @@
+.footer__rodape{
+    background: var(--AzulDegrade);
+}
+.footer__rodape__titulo{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--branco);
+    padding: 1.5em 0 2em 0;
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+.ancoras__lista{
+display: flex;
+flex-wrap: wrap;
+gap: 1em;
+justify-content: center;
+padding-bottom: 2em;
+}
+.ancoras__items{
+    padding: 1em 1.5em;
+    background: var(--laranja);
+    text-decoration-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.footer{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer__principal{
+    padding: 1.5em 1.5em 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.footer__novidades{
+    background: var(--teste, linear-gradient(160deg, #002F52 0%, #326589 100%));
+    background-clip: text;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer__texto{
+    background: var(--teste, linear-gradient(160deg, #002F52 0%, #326589 100%));
+    background-clip: text;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+   
+}
+.footer__email{
+    background: url("../img/Email.svg") no-repeat;
+    padding: 0.6em 1.5em 0.6em 3em;
+    border-radius: 2em;
+    background-position: 1em;
+ 
+}

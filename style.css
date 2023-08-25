@@ -1,0 +1,30 @@
+@import url(header/header.css);
+@import url(header/banner.css);
+@import url(header/carrossel.css);
+@import url(header/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap');
+
+:root{
+    --CordeFundo: #ebecee; 
+    --branco: #ffffff;
+    --laranja:#eb9b00;
+    --AzulDegrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
+*{  
+    padding: 0;
+    margin: 0;
+
+    
+}
+body{
+    background-color: var(--CordeFundo);
+}
+
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--branco);
+    font-family: 'Poppins', sans-serif;
+}

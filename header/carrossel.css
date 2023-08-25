@@ -1,0 +1,73 @@
+
+
+
+.carrosel__titulo{
+    color: var(--laranja);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+} 
+.swiper-pagination{
+    position: initial;
+}
+.card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1em;
+    padding: 1em;
+}
+.descrição__titulo{
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700 ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.descrição__titulo__livro{
+    color: #002F52;
+    font-size: 18px;
+    font-weight: 700;
+    margin: .5em 0em .5em 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.card__descrição{
+    display: flex;
+    margin-bottom: .5em;
+}
+.descrição__texto{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    
+}
+.botões{
+    display:flex;
+}
+.card__botões{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.botões__item{
+    margin: 0 .5em;
+}
+.botão__ancora{
+    padding: 1em;
+    width: 130px;
+    background-color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--branco);
+    text-decoration: none;
+}
